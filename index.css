@@ -1,3 +1,8 @@
+*{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; user-select: none;
+}
 body {
     width: 900px;
     margin: 0 auto;
@@ -36,9 +41,9 @@ img {
     position: absolute;
     background: #fff;
     box-shadow: 4px 4px 4px rgba(50, 50, 50, .5),
-    	-4px 4px 4px rgba(50, 50, 50, .5),
-    	4px -4px 4px rgba(50, 50, 50, .5),
-    	-4px -4px 4px rgba(50, 50, 50, .5);
+        -4px 4px 4px rgba(50, 50, 50, .5),
+        4px -4px 4px rgba(50, 50, 50, .5),
+        -4px -4px 4px rgba(50, 50, 50, .5);
 }
 .extra:focus ~ .paranja {
     display: block;
